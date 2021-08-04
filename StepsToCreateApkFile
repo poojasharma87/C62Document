@@ -1,0 +1,20 @@
+First download the folder of project from Snack Code Editor.
+Unzip the folder and open the folder in visual code studio.
+Open Node.js
+Move inside the current working directory.(Make sure you have selected the proper folder)
+Type npm imstall.
+After completetion type expo start, It will generate a QR code. 
+Scan the QR code in the expo-go application in your phone and check the output.
+Make sure the output of the project is proper.
+Press Ctrl+C to exit in node.js(Don't close the window of node.js, we have to exit the output screen only).
+In Visual Code Studio, open app.json file.
+In app.json replace the code for android like this:
+"android":{
+"package":"com.testuser.nameOfApp"
+}
+Then save the file and in node.js write expo build:android
+It will display "Making sure project is set up to correctly".
+After that it will show 2 options to build the apk file for the project.
+Select the first option and it will generate the apk file. (It will take some time so wait until its completely done.
+
+
